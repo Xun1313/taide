@@ -2,6 +2,7 @@
 /** @type {import('next').NextConfig} */
 // const CopyPlugin = require("copy-webpack-plugin");
 // const path = require("path");
+const withNextIntl = require('next-intl/plugin')();
 
 const nextConfig = {
   assetPrefix: process.env.NEXT_PUBLIC_ASSET_PREFIX,
@@ -74,4 +75,4 @@ const nextConfig = {
   // },
 };
 
-module.exports = nextConfig;
+module.exports = withNextIntl(nextConfig);
