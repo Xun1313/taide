@@ -9,11 +9,11 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
   const pathname = usePathname();
   const isEn = useMemo(() => pathname.includes("/en"), [pathname]);
   const Header = isEn
-  ? dynamic(() => import("~/en/components/Header"))
+  ? dynamic(() => import("~/components/Header"))
   : dynamic(() => import("~/components/Header"));
 
   const Footer = isEn
-    ? dynamic(() => import("~/en/components/Footer"))
+    ? dynamic(() => import("~/components/Footer"))
     : dynamic(() => import("~/components/Footer"));
 
   return (
