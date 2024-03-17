@@ -2,7 +2,10 @@ import "./css/all.min.css";
 // import "swiper/css";
 // import "swiper/css/pagination";
 
-import MainLayout from "~/components/MainLayout";
+import Header from "~/components/Header";
+import Footer from "~/components/Footer";
+import BackTop from "~/components/BackTop";
+
 import Script from "next/script";
 
 import type { Metadata } from "next";
@@ -88,7 +91,15 @@ export default function RootLayout({
           ></iframe>
         </noscript>
 
-        <MainLayout>{children}</MainLayout>
+        <section className="wrapper">
+          <Header />
+          <main className="main" itemType="https://schema.org/Organization">
+            {children}
+          </main>
+          <Footer />
+          <BackTop />
+        </section>
+
         <script
           src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/js/jquery.min.js`}
           defer={false}

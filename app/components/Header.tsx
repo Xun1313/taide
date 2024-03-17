@@ -172,9 +172,13 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/en`}>
+              <a
+                href="http://en.taide.tw/en"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 EN
-              </Link>
+              </a>
             </li>
           </ol>
         </nav>
