@@ -76,7 +76,9 @@ const Footer = () => {
                 </Link>
               </h3>
               <p>
-                <Link href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/download-model`}>
+                <Link
+                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/download-model`}
+                >
                   條款與許可協議
                 </Link>
               </p>
@@ -142,7 +144,9 @@ const Footer = () => {
                 </Link>
               </h3>
               <p>
-                <Link href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/download-model`}>
+                <Link
+                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/download-model`}
+                >
                   條款與許可協議
                 </Link>
               </p>
@@ -153,7 +157,7 @@ const Footer = () => {
           <div className="partnerUnit__item">
             <h3>指導單位</h3>
             <div>
-              <a href="https://www.nstc.gov.tw/">
+              <a href="https://www.nstc.gov.tw/" rel="noopener noreferrer">
                 <Image src={logoNstc} style={{ width: "auto" }} alt="NSTC" />
               </a>
             </div>
@@ -161,14 +165,14 @@ const Footer = () => {
           <div className="partnerUnit__item">
             <h3>執行單位</h3>
             <div>
-              <a href="https://www.narlabs.org.tw/">
+              <a href="https://www.narlabs.org.tw/" rel="noopener noreferrer">
                 <Image
                   src={logoNarlabs}
                   style={{ width: "auto" }}
                   alt="NARlabs"
                 />
               </a>
-              <a href="https://moda.gov.tw/">
+              <a href="https://moda.gov.tw/" rel="noopener noreferrer">
                 <Image src={logoModa} style={{ width: "auto" }} alt="moda" />
               </a>
             </div>

@@ -121,6 +121,7 @@ const MainPage = () => {
                 <a
                   href="https://www.iisr.csie.ncu.edu.tw/faculty"
                   target="_blank"
+                  rel="noopener noreferrer"
                 ></a>
                 <Image src={photo_500500_2} alt="蔡宗翰 Tsai, Tzong-Han" />
                 <div className="btn">

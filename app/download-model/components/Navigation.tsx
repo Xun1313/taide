@@ -80,7 +80,7 @@ const Navigation = () => {
     <ul>
       <li>
         <a style={{ cursor: "pointer" }} className="toTerms">
-          ·使用政策與許可協議
+          ·TAIDE社群授權同意書
         </a>
       </li>
       <li>
@@ -91,6 +91,16 @@ const Navigation = () => {
       <li>
         <a style={{ cursor: "pointer" }} className="toModel">
           ·TAIDE合作模式
+        </a>
+      </li>
+      <li>
+        <a style={{ cursor: "pointer" }} className="toFAQ">
+          ·TAIDE模型使用常見問題
+        </a>
+      </li>
+      <li>
+        <a style={{ cursor: "pointer" }} className="toBenchmark">
+          ·大任務 benchmark 下載
         </a>
       </li>
     </ul>

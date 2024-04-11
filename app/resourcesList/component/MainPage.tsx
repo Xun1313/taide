@@ -178,6 +178,7 @@ const MainPage = () => {
                 <a
                   href="http://speech.ee.ntu.edu.tw/~tlkagk/index.html"
                   target="_blank"
+                  rel="noopener noreferrer"
                 ></a>
                 <Image src={photo_500500_1} alt="李宏毅 Lee, Hung-Yi" />
                 <div className="btn">

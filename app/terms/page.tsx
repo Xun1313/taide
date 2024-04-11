@@ -184,6 +184,7 @@ const Terms = () => {
                 <a
                   href="https://ai.meta.com/resources/models-and-libraries/Llama-downloads/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   ai.meta.com/resources/models-and-libraries/Llama-downloads/
                 </a>
@@ -481,14 +482,22 @@ const Terms = () => {
             <p>參考來源：</p>
             <div className="sources">
               Meta AI Llama2 Acceptable Use Policy{" "}
-              <a href="https://ai.meta.com/Llama/use-policy/" target="_blank">
+              <a
+                href="https://ai.meta.com/Llama/use-policy/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 https://ai.meta.com/Llama/use-policy/
               </a>
             </div>
 
             <div className="sources">
               Meta AI Llama2 Community License Agreement{" "}
-              <a href="https://ai.meta.com/Llama/license/" target="_blank">
+              <a
+                href="https://ai.meta.com/Llama/license/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 https://ai.meta.com/Llama/license/
               </a>
             </div>

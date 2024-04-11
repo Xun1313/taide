@@ -46,468 +46,278 @@ const DownloadModel = () => {
           <div className="downloadDetail">
             <div className="downloadDetail__left">
               <div className="article__item terms">
-                <h2>·使用政策與許可協議</h2>
+                <h2>·TAIDE社群授權同意書</h2>
+                <div className="article_＿date">發布日期:2024 年 4 月 15日</div>
                 <div className="article__con">
+                  <p>前言</p>
                   <p>
-                    TAIDE模型為Llama2模型結合臺灣文化與正體中文語料之衍生模型。
+                    財團法人國家實驗研究院(以下稱「國研院」)開發並建置 TAIDE L
+                    類模型,當您取得或開始使用 TAIDE L
+                    類模型及其材料(以下合稱「TAIDE L
+                    類模型」)時,即表示您已閱讀、瞭解並同意接受本社群授權同意書的所有內容。如果您不同意本社群授權同意書的內容,或者您適用的國家、地區排除本社群授權同意書部分或全部的內容時,您應即停止使用TAIDE
+                    L 類模型。
                   </p>
+                  <h3>一、定義</h3>
                   <p>
-                    本TAIDE模型許可協議（下稱本協議）載明並確保使用者（下稱「您」）使用TAIDE模型時遵守下述行為。
-                  </p>
-                  <p>
-                    本協議適用於使用TAIDE模型之任何人，使用者存取及使用TAIDE模型
-                    (包括軟體、服務及衍生作品)的前提係遵守本協議，TAIDE可能會不定時更新該規則，本協議並未包含TAIDE模型使用之所有情形，TAIDE得於任何時間修訂、增減、補充本協議，並於網站上公布修訂版本。
-                  </p>
-                  <p>若本協議存在任何疑義，由TAIDE保留最終解釋權利。</p>
-                  <p>
-                    如您違反本協議、或授權或協助他人違反本協議，TAIDE得立即暫停或終止您對TAIDE模型之全部或部份使用。
-                  </p>
-                  <p>本協議主要包含：</p>
-                  <div className="ml-1">
-                    <p>(1) TAIDE授權與使用條款</p>
-                    <p>
-                      (2) Llama2許可協議 (Meta AI Llama2 Community License
-                      Agreement)
-                    </p>
-                    <p>
-                      (3) Llama2使用條款 (Meta AI Llama2 Acceptable Use Policy)
-                    </p>
-                  </div>
-                  <p className="desc">
-                    其中(2) Llama2許可協議 (Meta AI Llama2 Community License
-                    Agreement)、 (3) Llama使用條款 (Meta AI Llama2 Acceptable
-                    Use Policy) 係參照©Meta Platforms,
-                    Inc.（下稱為Meta）公布之Meta AI Llama2 Community License
-                    Agreement、 Meta AI Llama2 Acceptable Use
-                    Policy。本協議之內容為中譯版本，以便參照說明。
-                  </p>
-
-                  <h3>1. TAIDE授權與使用條款</h3>
-                  <p>
-                    <span>1.1 </span>
-                    <span>您於使用TAIDE模型服務過程中，必須遵循以下原則：</span>
-                  </p>
-                  <div className="ml-1">
-                    <p>
-                      <span>1.1.1</span>
-                      <span>遵守中華民國法律和法規。</span>
-                    </p>
-                    <p>
-                      <span>1.1.2</span>
-                      <span>
-                        不得為任何非法目的使用TAIDE模型（包含但不限於中華民國法律和法規與
-                        Llama2 使用條款之內容）。
-                      </span>
-                    </p>
-                    <p>
-                      <span>1.1.3</span>
-                      <span>
-                        不使用任何設備、軟體或程序，干擾或試圖干擾TAIDE模型之正常運作。
-                      </span>
-                    </p>
-                    <p>
-                      <span>1.1.4</span>
-                      <span>
-                        不允許入侵、接通、使用或企圖入侵、接通、使用TAIDE模型之伺服器及未經TAIDE或Meta許可之任何資料區。
-                      </span>
-                    </p>
-                    <p>
-                      <span>1.1.5 </span>
-                      <span>不得限制、制止其他使用者使用TAIDE模型。</span>
-                    </p>
-                    <p>
-                      <span>1.1.6 </span>
-                      <span>
-                        如發現任何非法使用帳號或任何出現安全漏洞的情況，應立即告知TAIDE。
-                      </span>
-                    </p>
-                  </div>
-                  <p>
-                    <span>1.2</span>
-                    <span>損害賠償</span>
-                  </p>
-                  <div className="ml-1">
-                    <p>
-                      您同意保障和維護TAIDE模型及任何其他第三方之利益，如因違反法律、法規或本協議而致使TAIDE模型或任何其他第三方造成損失，您同意自行承擔所造成損害之賠償責任。
-                    </p>
-                  </div>
-                  <p>
-                    <span>1.3</span>
-                    <span>責任限制</span>
-                  </p>
-                  <div className="ml-1">
-                    <p>
-                      <span>1.3.1</span>
-                      <span>
-                        TAIDE於下列情形之一時，得暫停或中斷TAIDE模型之部分或全部服務：
-                      </span>
-                    </p>
-                    <div className="ml-2">
-                      <p>
-                        a. 對於TAIDE模型相關系統設備進行遷移、更換或維護時。
-                      </p>
-                      <p>b. 任何不可歸責於之事由所造成之服務停止或中斷。</p>
-                      <p>
-                        c. 天災或其他不可抗力造成TAIDE模型之服務停止或中斷。
-                      </p>
-                    </div>
-                    <p>
-                      <span>1.3.2</span>
-                      <span>
-                        在任何情況下，TAIDE對於您或任何其他第三方因使用或不能使用TAIDE模型引起之，不論係契約責任、侵權責任、過失責任、產品責任或其他責任產生之損失，或任何間接性、特殊性、後果性、附帶性利潤損失及懲罰性損害均不負責。即便TAIDE已被告知可能發生前述情況，亦同。
-                      </span>
-                    </p>
-                  </div>
-                  <p>
-                    <span>1.4</span>
-                    <span>服務變更、中斷或終止</span>
-                  </p>
-                  <div className="ml-1">
-                    <p>
-                      您同意TAIDE有權隨時變更、中斷或終止部分或全部的TAIDE模型服務。
-                    </p>
-                  </div>
-                  <p>
-                    <span>1.5</span>
-                    <span>其他規定</span>
-                  </p>
-                  <div className="ml-1">
-                    <p>
-                      如本協議之任何條款無論何種原因，完全或部分無效、終止或不具有執行力，本協議之其餘條款仍應有效並具有約束力。
-                    </p>
-                  </div>
-                  <p>
-                    <span>1.6</span>
-                    <span>法律管轄</span>
-                  </p>
-                  <div className="ml-1">
-                    <p>
-                      本協議之訂立、執行和解釋及爭議解決均應適用於中華民國法律，並以臺灣臺北地方法院作為第一審管轄法院。
-                    </p>
-                  </div>
-                  <h3>
-                    2. Llama2 許可協議(Meta AI Llama2 Community License
-                    Agreement)
-                  </h3>
-                  <p className="displayFlex">
-                    <span>2.1</span>
+                    <span>1.</span>
                     <span>
-                      「Llama2
-                      許可協議」係指此處規範Llama素材之使用、複製、發布和修改的條款和條件。
+                      授權同意:係指符合本社群授權同意書的條件下,國研院同意您得以使用、重製、修改、散布等方式利用
+                      TAIDE L 類模型。
                     </span>
                   </p>
-                  <p className="displayFlex">
-                    <span>2.2</span>
+                  <p>
+                    <span>2.</span>
                     <span>
-                      「Llama相關文件」係指Meta一同與Llama2發布於
-                      <a
-                        href="https://ai.meta.com/resources/models-and-libraries/Llama-downloads/"
-                        target="_blank"
-                      >
-                        ai.meta.com/resources/models-and-libraries/Llama-downloads/
-                      </a>
-                      之規格、手冊和文件。
+                      授權方:係指對於 TAIDE L
+                      類模型享有所有權及智慧財產權的法律主體。本社群授權同意書下的授權方是國研院,或經國研院授權可對第三方再授權的個人或其他法律主體。
                     </span>
                   </p>
-                  <p className="displayFlex">
-                    <span>2.3</span>
+                  <p>
+                    <span>3.</span>
                     <span>
-                      「被授權人」或「您」係指您，或若您代表您的雇主或其他人或法人簽訂本Llama2
-                      許可協議，則代表人及被代表人必須符合適用法規範要求的法定年齡；且若您代表您的雇主或其他人或法人簽署本Llama2
-                      許可協議，表示於適用法規範下，您獲得被代表人之合法授權。
+                      您
+                      (或「您的」):係指本社群授權同意書下的被授權人,得行使本社群授權同意書所授予的權利或/及基於任何目的、於任何領域利用、取用
+                      TAIDE L 類模型的個人或其他法律主體。
                     </span>
                   </p>
-                  <p className="displayFlex">
-                    <span>2.4</span>
+                  <p>
+                    <span>4.</span>
                     <span>
-                      「Llama
-                      2」係指由Meta發布的基礎大型語言模型和軟體以及相關演算法，包括機器學習模型代碼、訓練模型權重、推斷啟用代碼、訓練啟用代碼、微調啟用代碼以及前述各項元素的其他部分，可於
-                      ai.meta.com/resources/models-and-libraries/Llama-downloads/取得。
+                      第三方:係指「授權方」、「您」以的的任何個人或其他法律主體。
                     </span>
                   </p>
-                  <p className="displayFlex">
-                    <span>2.5</span>
+                  <p>
+                    <span>5.</span>
                     <span>
-                      「Llama素材」係指本Llama2 許可協議提供之Meta專有Llama 2
-                      和Llama 相關文件（或其中之任何部分）。
-                      <br />
-                      「Meta」或「我們」係指Meta Platforms Ireland
-                      Limited（若您（自然人）位於歐洲經濟區或瑞士，或者法人之主要營業地點位於歐洲經濟區或瑞士）和Meta
-                      Platforms, Inc.（若您位於歐洲經濟區或瑞士外）。
+                      TAIDE L 類模型:TAIDE L
+                      類模型是一個人工智慧的語言與對話基礎模型、軟體與演算法,包含機器學習模型程式碼、訓練所得模型之參數、驅動程式碼等,您得以自有或有權使用的內容、資料以上述材料進行調整或修正,以發展成符合您自身需求的系統或模型。
                     </span>
                   </p>
-                  <p className="displayFlex">
-                    <span>2.5.1</span>
-                    <span>許可權和再發布：</span>
+                  <p>
+                    <span>6.</span>
+                    <span>
+                      衍生模型:係指您將 TAIDE L
+                      類模型的參數或輸出模式遷移而建置的其他模型、透過使用 TAIDE
+                      L 類模型產生合成資料訓練而成的其他模型、或對於 TAIDE L
+                      類模型進行修改或變更以建置與 TAIDE L
+                      類模型具有相似效能的其他模型。
+                    </span>
+                  </p>
+                  <p>
+                    <span>7.</span>
+                    <span>
+                      個人資料:係指得以直接或間接方式識別特定自然人之資料。個人資料的處理包括但不限於記錄、輸入、儲存、編輯、更正、複製、檢索、刪除、輸出、連結或內部傳送等方式。
+                    </span>
+                  </p>
+                  <h3>二、授權同意與使用限制</h3>
+                  <p>
+                    <span>1.</span>
+                    <span>
+                      在合乎本社群授權同意書的前提下,國研院特此授予您一個【非專屬性、全球性、不可轉讓的、不可再授權的、無償的】授權同意。
+                    </span>
+                  </p>
+                  <p>
+                    <span>2.</span>
+                    <span>
+                      您清楚知悉 TAIDE L 類模型是基於 Meta AI 之「Llama 2
+                      模型」, 該模型相關授權限制條件與規範 (包括但不限於 META AI
+                      Llama 2 Community License Agreement、META AI Llama 2
+                      Acceptable Use
+                      Policy),請參考:https://ai.meta.com/llama/。您應自行上線閱覽並同意遵守前述限制條件及規範。
+                    </span>
+                  </p>
+                  <p>
+                    <span>3.</span>
+                    <span>
+                      您可以在您所建置的衍生模型中添加新的智慧財產權聲明,並可以為您的衍生模型提供不同於本社群授權同意書的條件,但前提是您必須確保衍生模型的使用、重製等條件不得牴觸本社群授權同意書。
+                    </span>
+                  </p>
+                  <p>
+                    <span>4.</span>
+                    <span>
+                      您得依法對於衍生模型享有相關權利,但您必須滿足以下的條件,若有違反,您依本社群授權同意書下所取得的授權同意即行終止;
+                    </span>
                   </p>
                   <div className="ml-1">
                     <p>
-                      <span>a.</span>
-                      <span>
-                        權利授予：根據 Meta
-                        的智慧財產權及其他權利，您被授予非專有、全球性、不可轉讓和免版稅的有限許可，以使用、再製、發布、複製、創建衍生作品和對Llama素材進行修改。
-                      </span>
+                      (1)
+                      您不得出於任何軍事或非法目的使用、重製、修改、變更或建置與
+                      TAIDE L 類模型相關的全部或部分衍生模型;
                     </p>
-                    <p>b. 再發布和使用：</p>
-                    <div className="ml-1">
-                      <p>
-                        <span>Ⅰ.</span>
-                        <span>
-                          若您發布或將Llama素材或其任何衍生作品供第三方使用，您應向該第三方提供本Llama2
-                          許可協議之副本。
-                        </span>
-                      </p>
-                      <p>
-                        <span>Ⅱ.</span>
-                        <span>
-                          若您作為整合最終使用者，從被授權人處接收之產品有部分使用了Llama素材或其任何衍生作品，則本Llama2
-                          許可協議第2條將不適用於您。
-                        </span>
-                      </p>
-                      <p>
-                        <span>Ⅲ.</span>
-                        <span>
-                          您必須在您發布所有含有Llama素材之副本中，提供以下「須知文件」，其中應包含下述歸屬聲明：「Llama
-                          2 係根據 Llama 2社群授權下使用，版權由© Meta
-                          Platforms, Inc. 所有，Meta並保留所有權利。」
-                        </span>
-                      </p>
-                      <p>
-                        <span>Ⅳ.</span>
-                        <span>
-                          您在使用
-                          Llama素材時，必須遵守適用之法規（包括貿易相關法規範），並遵守Llama素材之使用政策（可在
-                          https://ai.meta.com/Llama/use-policy取得），特此透過引用將其納入本Llama2
-                          許可協議。
-                        </span>
-                      </p>
-                      <p>
-                        <span>Ⅴ.</span>
-                        <span>
-                          您不得使用Llama素材或Llama素材之任何輸出或結果來改進任何其他大型語言模型（不包括Llama
-                          2或其衍生作品）。
-                        </span>
-                      </p>
-                    </div>
-                  </div>
-                  <p>
-                    <span>2.5.2</span>
-                    <span>附加商業條款：</span>
-                  </p>
-                  <div className="ml-2">
                     <p>
-                      若在Llama 2
-                      版本發布之日，被授權人或被授權人之關聯公司提供的產品或服務，於前一個日曆月中之每月活躍用戶數超過7億，您必須向
-                      Meta 申請許可，Meta得決定是否授予您此類權利，除非 Meta
-                      明確授權，否則您無權行使本Llama2 許可協議下的任何權利。
+                      (2) 您因為修改、變更 TAIDE L
+                      類模型所得到的衍生模型,必須以顯著的方式說明或指出修改的內容,且上述修改不得違反本社群授權同意書下的授權限制條件;
+                    </p>
+                    <p>
+                      (3) 您對於 TAIDE L
+                      類模型的修改或任何使用行為(包括但不限於使用 TAIDE L
+                      類模型所得的衍生模型)不得違反中華民國法令或其他國家、國際組織適用法律(包括但不限於歐盟人工智慧法案)之要求,亦不得損害國研院或任何第三方之權利(包括但不限於肖像權、名譽權、隱私權等人格權,著作權、專利權、營業秘密等智慧財產權或者其他財產權);
+                    </p>
+                    <p>
+                      (4)
+                      如果您將您的衍生模型向您的使用者或接收者為重製、公開口述、公開播送、公開演出、公開傳輸、公開展示、改作、編輯、散布及出租等行為,您應向您的使用者或接收者提供本社群授權同意書之副本,並促其遵守本社群授權同意書的所有規範;
+                    </p>
+                    <p>
+                      (5)
+                      除非取得國研院事前書面同意的,您不得聲稱為國研院或國研院的代理人、受僱人、合作廠商或其他未經國研院明示同意的身分,您亦不得聲稱為
+                      TAIDE L 類模型之所有權人。
+                    </p>
+                    <p>
+                      (6) 您僅得於國研院或國研院授權的網站上取用 TAIDE L
+                      類模型。
+                    </p>
+                    <p>
+                      (7)
+                      您不能以任何方式自行或允許、協助第三方違反本社群授權同意書下的限制或規範。
                     </p>
                   </div>
+                  <h3>三、智慧財產權</h3>
                   <p>
-                    <span>2.5.3</span>
-                    <span>免責聲明：</span>
-                  </p>
-                  <div className="ml-2">
-                    <p>
-                      除非適用法律要求，否則Llama素材及其任何輸出和結果均以「原樣」提供，不為任何明示或默示的擔保，包括但不限於，所有權擔保、不侵權擔保、品質擔保、適銷性擔保、適用於特定用途或目的之擔保、任何專利有效性或不侵犯第三方智慧財產權之任何擔保。對於使用或重新發布Llama素材之適當性，您需全權負責，並承擔使用Llama素材以及任何輸出和結果所涉及之任何風險。
-                    </p>
-                  </div>
-                  <p>
-                    <span>2.5.4</span>
-                    <span>責任限制：</span>
-                  </p>
-                  <div className="ml-2">
-                    <p>
-                      在任何情況下，Meta或其關聯公司對於本Llama2許可協議引起之，不論係契約責任、侵權責任、過失責任、產品責任或其他責任產生之損失，或任何間接性、特殊性、後果性、附帶性利潤損失及懲罰性損害均不負責。即便Meta或其關聯公司已被告知可能發生前述情況，亦同。
-                    </p>
-                  </div>
-                  <p>
-                    <span>2.5.5</span>
-                    <span>智慧財產權：</span>
-                  </p>
-                  <div className="ml-2">
-                    <p>
-                      <span>a.</span>
-                      <span>
-                        本 Llama2
-                        許可協議未授權任何商標之使用許可，且在使用Llama素材方面，Meta和被許可方均不得使用對方或其任何關聯公司擁有或相關之名稱或標記，除非於描述和再發布Llama素材時，為了合理且符合慣例需求之使用。
-                      </span>
-                    </p>
-                    <p>
-                      <span>b.</span>
-                      <span>
-                        就使用Meta擁有之Llama素材製作之衍生作品方面，您將成為上述衍生作品和改作之所有權人。
-                      </span>
-                    </p>
-                    <p>
-                      <span>c.</span>
-                      <span>
-                        若您對 Meta
-                        任何實體提起訴訟或其他法律程序（包括訴訟中之交叉請求或反訴），主張Llama素材或Llama2之輸出或結果，或任何前述內容之任何部分侵害您的知識財產權或您擁有或得處分之其他權利，則本Llama2許可協議授權予您之權利將自訴訟提起之日或法律程序提起之日自動終止。而對於因您使用或發布Llama素材所引起或與之相關的任何第三方提出的任何賠償請求，您將對Meta進行賠償並使其免受損害。
-                      </span>
-                    </p>
-                  </div>
-                  <p>
-                    <span>2.5.6</span>
-                    <span>期限和終止：</span>
-                  </p>
-                  <div className="ml-2">
-                    <p>
-                      本Llama2 許可協議之生效日期將自您接受本Llama2
-                      許可協議或存取Llama素材之日起，依本Llama2
-                      許可協議之條款內容生效；而本Llama2
-                      許可協議之終止亦依據本Llama2許可協議之條款內容。若您違反本Llama2
-                      許可協議之任何條款，Meta得隨時終止本Llama2
-                      許可協議。本Llama2許可協議經終止後，您應立即刪除並停止使用Llama素材，惟本Llama2
-                      許可協議之第3條、第4條和第7條將於終止後繼續有效。
-                    </p>
-                  </div>
-                  <p>
-                    <span>2.5.7</span>
-                    <span>適用法律和管轄權：</span>
-                  </p>
-                  <div className="ml-2">
-                    <p>
-                      本Llama2
-                      許可協議受加州法律管轄並根據加州法律進行解釋，而不考慮法律選擇原則；且《聯合國國際貨物銷售合約公約》不適用於本Llama2
-                      許可協議。加州法院對因本Llama2
-                      許可協議引起之任何爭議擁有專屬管轄權。
-                    </p>
-                  </div>
-                  <br />
-                  <h3>
-                    3. Llama2 使用條款(Meta AI Llama2 Acceptable Use Policy)
-                  </h3>
-                  <p>
-                    <span>3.1</span>
+                    <span>1.</span>
                     <span>
-                      我們希望每個人都能安全、負責任地使用Llama
-                      2，您同意您不會使用或允許他人使用 Llama 2作為以下之用途：
+                      您就利用 TAIDE L
+                      類模型而創作之衍生模型,依法享有該衍生作品之智慧財產權(包括但不限於著作人格權與著作財產權),惟您亦知悉該衍生作品之保護,不影響國研院就原作品即
+                      TAIDE L 類模型所享有的既有權利。
                     </span>
                   </p>
-
                   <p>
-                    <span>3.1.1</span>
-                    <span>違反法律或侵害他人之權利，包括：</span>
-                  </p>
-                  <div className="ml-2">
-                    <p>
-                      <span>a.</span>
-                      <span>
-                        參與、宣傳、生成、促進、鼓勵、策劃、煽動或推動非法活動或內容，例如：
-                      </span>
-                    </p>
-                    <div className="ml-1">
-                      <p>Ⅰ. 暴力或恐怖主義</p>
-                      <p>
-                        Ⅱ.
-                        剝削或傷害兒童，包括索取、創建、獲取或傳播兒童剝削之相關內容或未能通報兒童性虐待之素材。
-                      </p>
-                    </div>
-                    <p>
-                      <span>b.</span>
-                      <span>人口販運、剝削和性暴力</span>
-                    </p>
-                    <div className="ml-1">
-                      <p>
-                        Ⅰ.
-                        向未成年人散佈不合法之資訊或素材，包括色情相關資訊，或未對使用者取得此類資訊時，進行法律規定之年齡控管限制。
-                      </p>
-                      <p>Ⅱ. 性交易</p>
-                      <p>Ⅲ. 任何其他犯罪活動</p>
-                    </div>
-
-                    <p>
-                      <span>c.</span>
-                      <span>
-                        參與、宣傳、煽動或促進對個人或群體的騷擾、虐待、威脅或或霸凌。
-                      </span>
-                    </p>
-                    <p>
-                      <span>d.</span>
-                      <span>
-                        參與、宣傳、煽動或促進在就業、就業福利、信貸、住房、其他經濟福利或其他基本商品和服務提供之歧視性、其他非法或有害行為。
-                      </span>
-                    </p>
-                    <p>
-                      <span>e.</span>
-                      <span>
-                        於未經授權或許可下，從事任何專業行業之行為，包括但不限於，金融、法律、醫療/健康或其他。
-                      </span>
-                    </p>
-                    <p>
-                      <span>f.</span>
-                      <span>
-                        在未經適用法規範允許之情況下，收集、處理、披露、生成或推斷有關個人健康、人口統計或其他個人隱私或信息。
-                      </span>
-                    </p>
-                    <p>
-                      <span>g.</span>
-                      <span>
-                        從事或促使任何侵犯、盜用或違反任何第三方權利之行為，包括使用Llama
-                        2素材的產品或服務的輸出或結果所導致。
-                      </span>
-                    </p>
-                    <p>
-                      <span>h.</span>
-                      <span>
-                        創建、生成或促進惡意代碼、惡意軟體、電腦病毒或任何其他可能禁用、超負荷、干擾或損壞網站或計算機系統正常運作、完整性、操作或外觀之任何其他行為。
-                      </span>
-                    </p>
-                  </div>
-
-                  <p>
-                    <span>3.1.2</span>
+                    <span>2.</span>
                     <span>
-                      參與、宣傳、生成、促進、鼓勵、策劃、煽動、協助規劃或進行對個人造成死亡或傷害風險之行為，包括使用
-                      Llama 2 進行：
+                      您充分理解並同意,您如因使用、改作或變更 TAIDE L
+                      類模型之內容、形式或名目而發生任何法律爭議(包括但不限於誹謗、抄襲等侵害他人著作權或其他侵權情事)或您遭使用者或第三方對您提起訴訟、消費爭議等相類情事,均應由您自行承擔一切相關之法律責任。相對地,國研院如因此蒙受任何損害,國研院亦得向您請求損害賠償。
                     </span>
                   </p>
-                  <div className="ml-2">
-                    <p>
-                      a.
-                      軍事、戰爭、核工業或應用、間諜活動，涉及由美國國務院《國際武器貿易條例》(ITAR)
-                      限制之素材或活動。
-                    </p>
-                    <p>b. 槍支和非法武器（包括武器開發）</p>
-                    <p>c. 非法藥物及受管制/受監管之物質</p>
-                    <p>d. 關鍵基礎設施、運輸技術或重型機械之營運</p>
-                    <p>e. 自我傷害或傷害他人之行為，包括自殺、自殘和飲食失調</p>
-                    <p>
-                      f. 旨在煽動或宣揚暴力、虐待或對個人造成身體傷害之任何內容
-                    </p>
-                  </div>
+                  <h3>四、商標</h3>
                   <p>
-                    <span>3.1.3</span>
-                    <span>故意欺騙或誤導他人，包括使用Llama 2進行：</span>
+                    除非係合理使用的,您不得任意使用國研院的任何商標、服務標章、網站名稱或其他作品名稱(以下合稱為「標識」)。除取得國研院事前書面同意的,您不得將前述的標識以單獨或結合的方式展示、使用或以之在任何國家或地區申請商標註冊;您也不得向他人明示或暗示享有展示、使用或處分前述標識的權利。倘因您違反本條規定而造成國研院或第三方的損害,您應自行承擔相關的法律責任。
                   </p>
-                  <div className="ml-2">
-                    <p>a. 生成、宣傳或促進詐騙，或創建、宣傳虛假資訊。</p>
-                    <p>
-                      b.
-                      生成、宣傳或促進散布誹謗性內容，包含創建誹謗性聲明、圖像或其他內容。
-                    </p>
-                    <p>c. 生成、宣傳或促進發布垃圾郵件。</p>
-                    <p>d. 未經同意、授權或非法冒充他人。</p>
-                    <p>e. 表示使用Llama 2之衍生作品係由人類生成的。</p>
-                    <p>
-                      f.
-                      生成或促進虛假之網絡活動，包含虛假留言和其他虛假之網絡參與方式。
-                    </p>
-                  </div>
+                  <h3>五、免責聲明與責任限制</h3>
                   <p>
-                    <span>3.1.4</span>
+                    <span>1.</span>
                     <span>
-                      未適當地向最終用戶披露人工智慧系統之任何已知危險。
+                      除非適用法律要求的,國研院依本社群授權同意書所提供的服務都是按「現狀」及「原樣」方式提供之。國研院在此明確聲明,國研院並未提供任何種類之明示或默示性保證與條件,包括但不限於適銷性、可獲利性、特殊用途之適用性及非侵權或所有權等擔保。您充分理解並同意,您應當自行承擔使用、修改
+                      TAIDE L 類模型的所有風險,且您應自行確認使用 TAIDE L
+                      類模型或散布衍生模型的適法性,並承擔與此相關的法律責任。
+                    </span>
+                  </p>
+                  <p>
+                    <span>2.</span>
+                    <span>
+                      您充分理解並同意,國研院或國研院的代理人、使用人、受僱人、隸屬單位、合作單位對於您使用、修改
+                      TAIDE L
+                      類模型所生之損害或損失均不負賠償責任,縱然國研院已接獲通知或已知曉發生上開損害或損失之可能性,亦同。相對地,若因為您違法或違反本社群授權同意書使用
+                      TAIDE L
+                      類模型而導致國研院遭受任何損害或損失,國研院將有權向您請求承擔全部的賠償責任。
+                    </span>
+                  </p>
+                  <p>
+                    <span>3.</span>
+                    <span>
+                      縱然國研院在 TAIDE L 類模型訓練的所有階段,都盡力維護 TAIDE
+                      L
+                      類模型的合法性和準確性,惟因受限於偵測保護機制,這將有可能減損
+                      TAIDE L
+                      類模型的輸出結果的準確性。因此,國研院在此明確聲明,國研院不承擔您因使用
+                      TAIDE L 類模型及其原始程式碼而導致的資料安全問題或任何涉及
+                      TAIDE L
+                      類模型被誤導、誤用、不正當或不合法使用而產生的任何風險和責任。
+                    </span>
+                  </p>
+                  <p>
+                    <span>4.</span>
+                    <span>
+                      您充分理解並同意,國研院並未向您保證或承諾 TAIDE L
+                      類模型將符合您自身需求,您必須自行訓練、改善或優化您的衍生模型,並獨自承擔由此可能產生的任何風險和後果。
+                    </span>
+                  </p>
+                  <p>
+                    <span>5.</span>
+                    <span>
+                      您充分理解並同意,您將遵守所有適用的法令以進行個人資料的處理,尤其是遵守個人資訊保護法的相關規定。敬請注意,縱使國研院依本社群授權同意書授予您使用
+                      TAIDE L
+                      類模型的權利,然而這並不代表您已經獲得處理相關個人資料的授權。您作為獨立的個人資料處理者,須自行確認及遵循相關法令的要求。
+                    </span>
+                  </p>
+                  <p>
+                    <span>6.</span>
+                    <span>
+                      您充分理解並同意,除了上述的條款的,國研院仍有權判斷您是否有其他違反有關法令或本社群授權同意書的行為,進而採取適當的法律對策。除此之的,國研院有權通知相關的政府單位,倘若有此類情形,您應獨自承擔由此而產生的一切法律責任。
+                    </span>
+                  </p>
+                  <p>
+                    <span>7.</span>
+                    <span>
+                      您充分理解並同意,您將對 TAIDE L
+                      類模型的使用及衍生模型所涉及的智慧財產權風險或與之相關的任何損害或損失負責。
+                    </span>
+                  </p>
+                  <p>
+                    <span>7.</span>
+                    <span>
+                      您充分理解並同意,您將對 TAIDE L
+                      類模型的使用及衍生模型所涉及的智慧財產權風險或與之相關的任何損害或損失負責。
+                    </span>
+                  </p>
+                  <p>
+                    <span>8.</span>
+                    <span>本社群授權同意書所稱損害或損失係指:</span>
+                  </p>
+                  <div className="ml-1">
+                    <p>(1) 收入損失;</p>
+                    <p>(2) 實際或預期利潤損失;</p>
+                    <p>(3) 預期節約損失;</p>
+                    <p>(4) 業務損失;</p>
+                    <p>(5) 機會損失;</p>
+                    <p>(6) 商譽、聲譽損失;或</p>
+                    <p>(7) 任何間接性或衍生性損害或損失。</p>
+                  </div>
+                  <h3>六、自願接受額的義務的情形</h3>
+                  <p>
+                    您於散布衍生模型之時,您可以選擇向您的使用者或接收者提供保固、技術支援、保證、賠償或其他約定義務,並得選擇向您的使用者或接收者收取費用。然而,您充分理解並同意,您在接受此類義務時,您無權代表國研院,國研院並不因您自願接受此類額的義務、同意賠償或其他相類情形而負擔任何義務或責任。
+                  </p>
+                  <h3>七、品牌曝光與標識 TAIDE L 類模型的義務</h3>
+                  <p>
+                    如果您將您以 TAIDE L
+                    類模型為基礎而建置的衍生模型在中華民國境內(的)提供使用授權或是參加任何中華民國境內(的)組織、個人舉辦的排名比賽(包括但不限於對於模型演算法準確度、效能等面向評比)的話,您必須在該模型說明中以顯著方式標識您的衍生模型係基於
+                    TAIDE L 類模型而進行的衍生作品。
+                  </p>
+                  <h3>八、期限與終止</h3>
+                  <p>
+                    本社群授權同意書自您接受本社群授權同意書或利用、取用 TAIDE L
+                    類模型起生效,並將持續有效。若發生您有違反本社群授權同意書的任何條款或條件,國研院有權終止本社群授權同意書。本社群授權同意書終止後,您應刪除並停止使用
+                    TAIDE L 類模型,惟第三條仍持續有效。
+                  </p>
+                  <h3>九、其他</h3>
+                  <p>
+                    <span>1.</span>
+                    <span>
+                      您可以隨時檢視本社群授權同意書的最新版本。本社群授權同意書的修訂將在發布之時立即生效,您若於變更生效日期後繼續使用
+                      TAIDE L 類模型,此即表示您同意遵守修改後的所有條款與條件。
+                    </span>
+                  </p>
+                  <p>
+                    <span>2.</span>
+                    <span>
+                      倘因本社群授權同意書或因使用 TAIDE L
+                      類模型所生之爭議對國研院或第三人提起訴訟,您依本社群授權同意書所獲得的授權同意將自提起訴訟之日起自動終止之。
+                    </span>
+                  </p>
+                  <p>
+                    <span>3.</span>
+                    <span>
+                      準據法與管轄權:本社群授權同意書所發生的爭議,應以中華民國法律為準據法,並以臺灣臺北地方法院為管轄法院。
                     </span>
                   </p>
                   <br />
                   <br />
+
                   <p>參考來源：</p>
                   <div className="sources">
                     Meta AI Llama2 Acceptable Use Policy{" "}
                     <a
-                      href="https://ai.meta.com/Llama/use-policy/"
+                      href="https://ai.meta.com/llama/use-policy/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       https://ai.meta.com/Llama/use-policy/
                     </a>
@@ -515,17 +325,27 @@ const DownloadModel = () => {
                   <div className="sources">
                     Meta AI Llama2 Community License Agreement{" "}
                     <a
-                      href="https://ai.meta.com/Llama/license/"
+                      href="https://ai.meta.com/llama/license/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       https://ai.meta.com/Llama/license/
                     </a>
+                  </div>
+                  <br />
+                  <br />
+                  <p>補充 : </p>
+                  <div className="sources">
+                    TAIDE L類模型社群授權同意書是用於本次釋出模型 : TAIDE-LX-7B
                   </div>
                 </div>
               </div>
               <div className="downloadDetail__right download mobile">
                 <h2>·模型版本</h2>
-                <div className="downloadDetail__table">
+                <div
+                  className="downloadDetail__table"
+                  style={{ padding: "4vw 4vw 10vw" }}
+                >
                   <table>
                     <tbody>
                       <tr>
@@ -546,14 +366,6 @@ const DownloadModel = () => {
                     </tbody>
                   </table>
                   <div className="btn">
-                    {/* <a href="https://huggingface.co/taide" target="_blank">
-                      <span>Huggingface 連結</span>
-                      <Image
-                        src={btnDownArrow}
-                        style={{ height: "auto" }}
-                        alt="arrow"
-                      />
-                    </a> */}
                     <a>
                       <span>Huggingface 連結</span>
                       <Image
@@ -565,6 +377,61 @@ const DownloadModel = () => {
                   </div>
                 </div>
               </div>
+              {/* <div className="downloadDetail__right download mobile">
+                <h2>·模型版本下載</h2>
+                <div
+                  className="downloadDetail__table"
+                  style={{ padding: "4vw 4vw 10vw" }}
+                >
+                  <table>
+                    <tbody>
+                      <tr>
+                        <th>模型版本</th>
+                        <th>釋出日期</th>
+                        <th>Context Length</th>
+                      </tr>
+                      <tr>
+                        <td>TAIDE-LX-7B</td>
+                        <td>2024/04/15</td>
+                        <td>4K</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                      <th colSpan={3} className="link">
+                        <a
+                          href="https://huggingface.co/taide"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Huggingface{" "}
+                          <Image
+                            src={btnNextArrow}
+                            style={{ height: "auto" }}
+                            alt="arrow"
+                          />
+                        </a>
+                      </th>
+                    </tr>
+                    <tr>
+                      <th colSpan={3} className="link">
+                        <a target="_blank" rel="noopener noreferrer">
+                          Github{" "}
+                          <Image
+                            src={btnNextArrow}
+                            style={{ height: "auto" }}
+                            alt="arrow"
+                          />
+                        </a>
+                      </th>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div> */}
               <div className="article__item even">
                 <h2>·TAIDE合作模式</h2>
                 <div className="article__con">
@@ -641,7 +508,10 @@ const DownloadModel = () => {
             </div>
             <div className="downloadDetail__right download desktop">
               <h2>·模型版本</h2>
-              <div className="downloadDetail__table">
+              <div
+                className="downloadDetail__table"
+                style={{ padding: "1vw 1vw 6vw" }}
+              >
                 <table>
                   <tbody>
                     <tr>
@@ -659,14 +529,6 @@ const DownloadModel = () => {
                   </tbody>
                 </table>
                 <div className="btn">
-                  {/* <a href="https://huggingface.co/taide" target="_blank">
-                    <span>Huggingface 連結</span>
-                    <Image
-                      src={btnDownArrow}
-                      style={{ height: "auto" }}
-                      alt="arrow"
-                    />
-                  </a> */}
                   <a>
                     <span>Huggingface 連結</span>
                     <Image
@@ -678,6 +540,59 @@ const DownloadModel = () => {
                 </div>
               </div>
             </div>
+            {/* <div className="downloadDetail__right download desktop">
+              <h2>·模型版本下載</h2>
+              <div className="downloadDetail__table">
+                <table>
+                  <tbody>
+                    <tr>
+                      <th>模型版本</th>
+                      <td>TAIDE-LX-7B</td>
+                    </tr>
+                    <tr>
+                      <th>釋出日期</th>
+                      <td>2024/04/15</td>
+                    </tr>
+                    <tr>
+                      <th>Context Length</th>
+                      <td>4K</td>
+                    </tr>
+                    <tr>
+                      <th></th>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th colSpan={2} className="link">
+                        <a
+                          href="https://huggingface.co/taide"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Huggingface{" "}
+                          <Image
+                            src={btnNextArrow}
+                            style={{ height: "auto" }}
+                            alt="arrow"
+                          />
+                        </a>
+                      </th>
+                    </tr>
+                    <tr>
+                      <th colSpan={2} className="link">
+                        <a target="_blank" rel="noopener noreferrer">
+                          Github{" "}
+                          <Image
+                            src={btnNextArrow}
+                            style={{ height: "auto" }}
+                            alt="arrow"
+                          />
+                        </a>
+                      </th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div> */}
           </div>
         </div>
       </article>
