@@ -46,7 +46,7 @@ const DownloadModel = () => {
           <div className="downloadDetail">
             <div className="downloadDetail__left">
               <div className="article__item terms">
-                <h2>·TAIDE社群授權同意書</h2>
+                <h2>·TAIDE L 類模型社群授權同意書</h2>
                 <div className="article_＿date">發布日期:2024 年 4 月 15日</div>
                 <div className="article__con">
                   <p>前言</p>
@@ -83,7 +83,7 @@ const DownloadModel = () => {
                   <p>
                     <span>4.</span>
                     <span>
-                      第三方:係指「授權方」、「您」以的的任何個人或其他法律主體。
+                      第三方:係指「授權方」、「您」以外的任何個人或其他法律主體。
                     </span>
                   </p>
                   <p>
@@ -189,7 +189,7 @@ const DownloadModel = () => {
                   </p>
                   <h3>四、商標</h3>
                   <p>
-                    除非係合理使用的,您不得任意使用國研院的任何商標、服務標章、網站名稱或其他作品名稱(以下合稱為「標識」)。除取得國研院事前書面同意的,您不得將前述的標識以單獨或結合的方式展示、使用或以之在任何國家或地區申請商標註冊;您也不得向他人明示或暗示享有展示、使用或處分前述標識的權利。倘因您違反本條規定而造成國研院或第三方的損害,您應自行承擔相關的法律責任。
+                    除非係合理使用的,您不得任意使用國研院的任何商標、服務標章、網站名稱或其他作品名稱(以下合稱為「標識」)。除取得國研院事前書面同意外,您不得將前述的標識以單獨或結合的方式展示、使用或以之在任何國家或地區申請商標註冊;您也不得向他人明示或暗示享有展示、使用或處分前述標識的權利。倘因您違反本條規定而造成國研院或第三方的損害,您應自行承擔相關的法律責任。
                   </p>
                   <h3>五、免責聲明與責任限制</h3>
                   <p>
@@ -418,7 +418,7 @@ const DownloadModel = () => {
                     </tr>
                     <tr>
                       <th colSpan={3} className="link">
-                        <a target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/taide-taiwan" target="_blank" rel="noopener noreferrer">
                           Github{" "}
                           <Image
                             src={btnNextArrow}
@@ -505,6 +505,50 @@ const DownloadModel = () => {
                   </ul>
                 </div>
               </div>
+
+              <div className="article__item FAQ">
+                <h2>·TAIDE模型使用常見問題</h2>
+                <div className="article__con">
+                  <p>
+                    TAIDE模型常見問題集{" "}
+                    <a
+                      href="https://drive.google.com/file/d/13EFO7MtqqOx_Rs7vzzZTdGdycqrz3qk_/view"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      https://drive.google.com/file/d/13EFO7MtqqOx_Rs7vzzZTdGdycqrz3qk_/view
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div className="article__item Benchmark">
+                <h2>·五大任務 benchmark 下載</h2>
+                <div className="article__con">
+                  <p>
+                    為評測TAIDE模型五大任務的表現，我們讓TAIDE模型做評測題目(五大任務共500題)，並用ChatGPT-4進行評分。五大任務的評測內容包含中翻英、英翻中、自動摘要、文章撰寫與信件撰寫。相關評測資料來源與評測程式碼資訊如下。
+                  </p>
+                  <p>
+                    評測資料連結{" "}
+                    <a
+                      href="https://huggingface.co/datasets/taide/taide-bench"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      https://huggingface.co/datasets/taide/taide-bench
+                    </a>
+                  </p>
+                  <p>
+                    評測方法程式碼{" "}
+                    <a
+                      href="https://github.com/taide-taiwan/taide-bench-eval"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      https://github.com/taide-taiwan/taide-bench-eval
+                    </a>
+                  </p>
+                </div>
+              </div>
             </div>
             <div className="downloadDetail__right download desktop">
               <h2>·模型版本</h2>
@@ -579,7 +623,7 @@ const DownloadModel = () => {
                     </tr>
                     <tr>
                       <th colSpan={2} className="link">
-                        <a target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/taide-taiwan" target="_blank" rel="noopener noreferrer">
                           Github{" "}
                           <Image
                             src={btnNextArrow}

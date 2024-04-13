@@ -80,7 +80,7 @@ const Navigation = () => {
     <ul>
       <li>
         <a style={{ cursor: "pointer" }} className="toTerms">
-          ·TAIDE社群授權同意書
+          ·TAIDE L 類模型社群授權同意書
         </a>
       </li>
       <li>
@@ -100,7 +100,7 @@ const Navigation = () => {
       </li>
       <li>
         <a style={{ cursor: "pointer" }} className="toBenchmark">
-          ·大任務 benchmark 下載
+          ·五大任務 benchmark 下載
         </a>
       </li>
     </ul>
