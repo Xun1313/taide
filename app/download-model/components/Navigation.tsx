@@ -14,6 +14,12 @@ const Navigation = () => {
       const article__item: {
         offset: Function;
       } = $(".article__item.even");
+      const article__item_FAQ: {
+        offset: Function;
+      } = $(".article__item.FAQ");
+      const article__item_Benchmark: {
+        offset: Function;
+      } = $(".article__item.Benchmark");
       $(".toTerms").click(function () {
         if (window.matchMedia("(max-width:960px)").matches) {
           $("html, body").animate(
@@ -60,6 +66,40 @@ const Navigation = () => {
           $("html, body").animate(
             {
               scrollTop: article__item.offset().top - headerH - 50,
+            },
+            600
+          );
+        }
+      });
+      $(".toFAQ").click(function () {
+        if (window.matchMedia("(max-width:960px)").matches) {
+          $("html, body").animate(
+            {
+              scrollTop: article__item_FAQ.offset().top - headerH,
+            },
+            600
+          );
+        } else {
+          $("html, body").animate(
+            {
+              scrollTop: article__item_FAQ.offset().top - headerH - 50,
+            },
+            600
+          );
+        }
+      });
+      $(".toBenchmark").click(function () {
+        if (window.matchMedia("(max-width:960px)").matches) {
+          $("html, body").animate(
+            {
+              scrollTop: article__item_Benchmark.offset().top - headerH,
+            },
+            600
+          );
+        } else {
+          $("html, body").animate(
+            {
+              scrollTop: article__item_Benchmark.offset().top - headerH - 50,
             },
             600
           );
