@@ -364,33 +364,37 @@ const DownloadModel = () => {
                         <td></td>
                       </tr>
                       <tr>
-                      <th colSpan={3} className="link">
-                        <a
-                          href="https://huggingface.co/taide"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          Huggingface{" "}
-                          <Image
-                            src={btnNextArrow}
-                            style={{ height: "auto" }}
-                            alt="arrow"
-                          />
-                        </a>
-                      </th>
-                    </tr>
-                    <tr>
-                      <th colSpan={3} className="link">
-                        <a href="https://github.com/taide-taiwan" target="_blank" rel="noopener noreferrer">
-                          Github{" "}
-                          <Image
-                            src={btnNextArrow}
-                            style={{ height: "auto" }}
-                            alt="arrow"
-                          />
-                        </a>
-                      </th>
-                    </tr>
+                        <th colSpan={3} className="link">
+                          <a
+                            href="https://huggingface.co/taide"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Huggingface{" "}
+                            <Image
+                              src={btnNextArrow}
+                              style={{ height: "auto" }}
+                              alt="arrow"
+                            />
+                          </a>
+                        </th>
+                      </tr>
+                      <tr>
+                        <th colSpan={3} className="link">
+                          <a
+                            href="https://github.com/taide-taiwan"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Github{" "}
+                            <Image
+                              src={btnNextArrow}
+                              style={{ height: "auto" }}
+                              alt="arrow"
+                            />
+                          </a>
+                        </th>
+                      </tr>
                     </tbody>
                   </table>
                 </div>
@@ -478,6 +482,7 @@ const DownloadModel = () => {
                       href="https://drive.google.com/file/d/13EFO7MtqqOx_Rs7vzzZTdGdycqrz3qk_/view"
                       target="_blank"
                       rel="noopener noreferrer"
+                      style={{ wordBreak: "break-all" }}
                     >
                       https://drive.google.com/file/d/13EFO7MtqqOx_Rs7vzzZTdGdycqrz3qk_/view
                     </a>
@@ -552,7 +557,11 @@ const DownloadModel = () => {
                     </tr>
                     <tr>
                       <th colSpan={2} className="link">
-                        <a href="https://github.com/taide-taiwan" target="_blank" rel="noopener noreferrer">
+                        <a
+                          href="https://github.com/taide-taiwan"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           Github{" "}
                           <Image
                             src={btnNextArrow}
