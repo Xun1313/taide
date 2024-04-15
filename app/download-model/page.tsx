@@ -340,7 +340,7 @@ const DownloadModel = () => {
                   </div>
                 </div>
               </div>
-              <div className="downloadDetail__right download mobile">
+              {/* <div className="downloadDetail__right download mobile">
                 <h2>·模型版本下載</h2>
                 <div
                   className="downloadDetail__table"
@@ -397,6 +397,43 @@ const DownloadModel = () => {
                       </tr>
                     </tbody>
                   </table>
+                </div>
+              </div> */}
+              <div className="downloadDetail__right download mobile">
+                <h2>·模型版本</h2>
+                <div
+                  className="downloadDetail__table"
+                  style={{ padding: "4vw 4vw 10vw" }}
+                >
+                  <table>
+                    <tbody>
+                      <tr>
+                        <th>模型版本</th>
+                        <th>釋出日期</th>
+                        <th>Tokens</th>
+                      </tr>
+                      <tr>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div className="btn">
+                    <a>
+                      <span>Huggingface 連結</span>
+                      <Image
+                        src={btnDownArrow}
+                        style={{ height: "auto" }}
+                        alt="arrow"
+                      />
+                    </a>
+                  </div>
                 </div>
               </div>
               <div className="article__item even">
@@ -518,7 +555,7 @@ const DownloadModel = () => {
                 </div>
               </div>
             </div>
-            <div className="downloadDetail__right download desktop">
+            {/* <div className="downloadDetail__right download desktop">
               <h2>·模型版本下載</h2>
               <div className="downloadDetail__table">
                 <table>
@@ -573,6 +610,40 @@ const DownloadModel = () => {
                     </tr>
                   </tbody>
                 </table>
+              </div>
+            </div> */}
+            <div className="downloadDetail__right download desktop">
+              <h2>·模型版本</h2>
+              <div
+                className="downloadDetail__table"
+                style={{ padding: "1vw 1vw 6vw" }}
+              >
+                <table>
+                  <tbody>
+                    <tr>
+                      <th>模型版本</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>釋出日期</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Tokens</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div className="btn">
+                  <a>
+                    <span>Huggingface 連結</span>
+                    <Image
+                      src={btnDownArrow}
+                      style={{ height: "auto" }}
+                      alt="arrow"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
