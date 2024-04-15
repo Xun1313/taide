@@ -340,7 +340,7 @@ const DownloadModel = () => {
                   </div>
                 </div>
               </div>
-              {/* <div className="downloadDetail__right download mobile">
+              <div className="downloadDetail__right download mobile">
                 <h2>·模型版本下載</h2>
                 <div
                   className="downloadDetail__table"
@@ -398,8 +398,8 @@ const DownloadModel = () => {
                     </tbody>
                   </table>
                 </div>
-              </div> */}
-              <div className="downloadDetail__right download mobile">
+              </div>
+              {/* <div className="downloadDetail__right download mobile">
                 <h2>·模型版本</h2>
                 <div
                   className="downloadDetail__table"
@@ -435,7 +435,7 @@ const DownloadModel = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="article__item even">
                 <h2>·TAIDE合作模式</h2>
                 <div className="article__con">
@@ -555,7 +555,7 @@ const DownloadModel = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="downloadDetail__right download desktop">
+            <div className="downloadDetail__right download desktop">
               <h2>·模型版本下載</h2>
               <div className="downloadDetail__table">
                 <table>
@@ -611,8 +611,8 @@ const DownloadModel = () => {
                   </tbody>
                 </table>
               </div>
-            </div> */}
-            <div className="downloadDetail__right download desktop">
+            </div>
+            {/* <div className="downloadDetail__right download desktop">
               <h2>·模型版本</h2>
               <div
                 className="downloadDetail__table"
@@ -645,7 +645,7 @@ const DownloadModel = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </article>
