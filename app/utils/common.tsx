@@ -16,6 +16,9 @@ export const authorizeMethodMapping: Record<string, string> = {
   "2": "創用CC",
   "3": "受著作權保護",
   "4": "不受著作權保護",
+  "5": "CC BY-SA 3.0",
+  "6": "CC BY-ND 3.0 TW DEED",
+  "7": "資料擁有單位授權提供",
 };
 
 export const formatMapping: Record<string, string> = {
