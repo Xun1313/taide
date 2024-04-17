@@ -32,4 +32,7 @@ export const formatMapping: Record<string, string> = {
   "8": "xls",
   "9": "xlsx",
   "10": "自行爬取",
+  "11": "資料擁有單位同意授權爬取",
+  "12": "pdf",
+  "13": "odt",
 };
