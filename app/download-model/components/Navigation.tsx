@@ -120,7 +120,7 @@ const Navigation = () => {
     <ul>
       <li>
         <a style={{ cursor: "pointer" }} className="toTerms">
-          ·TAIDE L 類模型社群授權同意書
+          ·Llama3-TAIDE 模型社群授權同意書
         </a>
       </li>
       <li>

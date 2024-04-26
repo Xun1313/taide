@@ -46,14 +46,13 @@ const DownloadModel = () => {
           <div className="downloadDetail">
             <div className="downloadDetail__left">
               <div className="article__item terms">
-                <h2>·TAIDE L 類模型社群授權同意書</h2>
-                <div className="article_＿date">發布日期:2024 年 4 月 15日</div>
+                <h2>·Llama3-TAIDE 模型社群授權同意書</h2>
                 <div className="article__con">
                   <p>前言</p>
                   <p>
-                    財團法人國家實驗研究院(以下稱「國研院」)開發並建置 TAIDE L
-                    類模型,當您取得或開始使用 TAIDE L
-                    類模型及其材料(以下合稱「TAIDE L
+                    財團法人國家實驗研究院(以下稱「國研院」)開發並建置
+                    Llama3-TAIDE 模型,當您取得或開始使用 Llama3-TAIDE
+                    模型及其材料(以下合稱「TAIDE L
                     類模型」)時,即表示您已閱讀、瞭解並同意接受本社群授權同意書的所有內容。如果您不同意本社群授權同意書的內容,或者您適用的國家、地區排除本社群授權同意書部分或全部的內容時,您應即停止使用TAIDE
                     L 類模型。
                   </p>
@@ -119,11 +118,11 @@ const DownloadModel = () => {
                   <p>
                     <span>2.</span>
                     <span>
-                      您清楚知悉 TAIDE L 類模型是基於 Meta AI 之「Llama 2
+                      您清楚知悉 TAIDE L 類模型是基於 Meta AI 之「Llama 3
                       模型」, 該模型相關授權限制條件與規範 (包括但不限於 META AI
-                      Llama 2 Community License Agreement、META AI Llama 2
-                      Acceptable Use
-                      Policy),請參考:https://ai.meta.com/llama/。您應自行上線閱覽並同意遵守前述限制條件及規範。
+                      Llama 3 Community License Agreement、META AI Acceptable
+                      Use Policy、Meta brand resources and
+                      guidelines),請參考:https://ai.meta.com/llama/。您應自行上線閱覽並同意遵守前述限制條件及規範。
                     </span>
                   </p>
                   <p>
@@ -306,6 +305,12 @@ const DownloadModel = () => {
                     <span>3.</span>
                     <span>
                       準據法與管轄權:本社群授權同意書所發生的爭議,應以中華民國法律為準據法,並以臺灣臺北地方法院為管轄法院。
+                    </span>
+                  </p>
+                  <p>
+                    <span>4.</span>
+                    <span>
+                      英文譯本僅供參考，文義如與中文版有歧異，概以中文版為準。
                     </span>
                   </p>
                   <br />
