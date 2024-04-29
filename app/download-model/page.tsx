@@ -318,7 +318,7 @@ const DownloadModel = () => {
 
                   <p>參考來源：</p>
                   <div className="sources">
-                    Meta AI Llama2 Acceptable Use Policy{" "}
+                    Meta AI Llama3 Acceptable Use Policy{" "}
                     <a
                       href="https://llama.meta.com/llama3/use-policy/"
                       target="_blank"
@@ -328,7 +328,7 @@ const DownloadModel = () => {
                     </a>
                   </div>
                   <div className="sources">
-                    Meta AI Llama2 Community License Agreement{" "}
+                    Meta AI Llama3 Community License Agreement{" "}
                     <a
                       href="https://llama.meta.com/llama3/license/"
                       target="_blank"
