@@ -320,28 +320,29 @@ const DownloadModel = () => {
                   <div className="sources">
                     Meta AI Llama2 Acceptable Use Policy{" "}
                     <a
-                      href="https://ai.meta.com/llama/use-policy/"
+                      href="https://llama.meta.com/llama3/use-policy/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      https://ai.meta.com/Llama/use-policy/
+                      https://llama.meta.com/llama3/use-policy/
                     </a>
                   </div>
                   <div className="sources">
                     Meta AI Llama2 Community License Agreement{" "}
                     <a
-                      href="https://ai.meta.com/llama/license/"
+                      href="https://llama.meta.com/llama3/license/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      https://ai.meta.com/Llama/license/
+                      https://llama.meta.com/llama3/license/
                     </a>
                   </div>
                   <br />
                   <br />
                   <p>補充 : </p>
                   <div className="sources">
-                    TAIDE L類模型社群授權同意書是用於本次釋出模型 : TAIDE-LX-7B
+                    Llama3-TAIDE 模型社群授權同意書適用於以下釋出模型 :
+                    TAIDE-LX-7B、Llama3-TAIDE-LX-8B
                   </div>
                 </div>
               </div>
@@ -359,9 +360,9 @@ const DownloadModel = () => {
                         <th>Context Length</th>
                       </tr>
                       <tr>
-                        <td>TAIDE-LX-7B</td>
-                        <td>2024/04/15</td>
-                        <td>4K</td>
+                        <td>Llama3-TAIDE-LX-8B</td>
+                        <td>2024/04/29</td>
+                        <td>8K</td>
                       </tr>
                       <tr>
                         <td></td>
@@ -567,15 +568,15 @@ const DownloadModel = () => {
                   <tbody>
                     <tr>
                       <th>模型版本</th>
-                      <td>TAIDE-LX-7B</td>
+                      <td>Llama3-TAIDE-LX-8B</td>
                     </tr>
                     <tr>
                       <th>釋出日期</th>
-                      <td>2024/04/15</td>
+                      <td>2024/04/29</td>
                     </tr>
                     <tr>
                       <th>Context Length</th>
-                      <td>4K</td>
+                      <td>8K</td>
                     </tr>
                     <tr>
                       <th></th>
