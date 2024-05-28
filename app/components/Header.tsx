@@ -173,7 +173,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                href="https://en.taide.tw/en"
+                href="https://en.taide.tw/index/en"
                 rel="noopener noreferrer"
                 target="_blank"
               >
