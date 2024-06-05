@@ -4,6 +4,7 @@ import btnNextArrow from "~/images/icon/btn_nextArrow.svg";
 import btnDownArrow from "~/images/icon/btn_downArrow.svg";
 import bg_download from "~/images/download/bg_download.png";
 import Navigation from "./components/Navigation";
+import AlertPopup from "./components/AlertPopup";
 
 import type { Metadata } from "next";
 export const metadata: Metadata = {
@@ -673,6 +674,8 @@ const DownloadModel = () => {
           </div>
         </article>
       </article>
+
+      <AlertPopup />
 
       <script
         type="application/ld+json"
