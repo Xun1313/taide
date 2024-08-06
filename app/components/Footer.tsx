@@ -3,7 +3,6 @@ import Link from "next/link";
 import logoW from "~/images/logo_w.svg";
 import logoNstc from "~/images/logo_NSTC.png";
 import logoNarlabs from "~/images/logo_NARlabs.png";
-import logoModa from "~/images/logo_moda.png";
 
 const Footer = () => {
   return (
@@ -13,40 +12,41 @@ const Footer = () => {
           <a style={{ cursor: "pointer" }}>
             <Image src={logoW} style={{ height: "auto" }} alt="TAIDE" />
           </a>
-          推動可信任生成式AI發展先期計畫
         </div>
         <div className="sitemapUnit desktop">
           <div className="sitemapUnit__body">
             <div className="sitemapUnit__item">
-              <h3>認識TAIDE</h3>
+              <h3>研發團隊</h3>
               <p>
                 <Link
-                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/about/project-overview`}
+                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList#tag1`}
                 >
-                  計畫背景
+                  模型鑄造組
                 </Link>
               </p>
               <p>
                 <Link
-                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/about/project-outcome`}
+                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList#tag2`}
                 >
-                  預期效益
+                  應用領域組
                 </Link>
               </p>
               <p>
                 <Link
-                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/about/project-progress`}
+                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList#tag3`}
                 >
-                  階段進展
+                  其他
+                </Link>
+              </p>
+              <p>
+                <Link
+                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList#tag4`}
+                >
+                  前期參與
                 </Link>
               </p>
             </div>
             <div className="sitemapUnit__item">
-              <h3>
-                <Link href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList`}>
-                  團隊陣容
-                </Link>
-              </h3>
               <h3>
                 <Link
                   href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/resourcesList`}
@@ -88,33 +88,35 @@ const Footer = () => {
         <div className="sitemapUnit mobile">
           <div className="sitemapUnit__body">
             <div className="sitemapUnit__item">
-              <h3>認識TAIDE</h3>
+              <h3>研發團隊</h3>
               <p>
                 <Link
-                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/about/project-overview`}
+                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList#tag1`}
                 >
-                  計畫背景
+                  模型鑄造組
                 </Link>
               </p>
               <p>
                 <Link
-                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/about/project-outcome`}
+                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList#tag2`}
                 >
-                  預期效益
+                  應用領域組
                 </Link>
               </p>
               <p>
                 <Link
-                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/about/project-progress`}
+                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList#tag3`}
                 >
-                  階段進展
+                  其他
                 </Link>
               </p>
-              <h3>
-                <Link href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList`}>
-                  團隊陣容
+              <p>
+                <Link
+                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList#tag4`}
+                >
+                  前期參與
                 </Link>
-              </h3>
+              </p>
               <h3>
                 <Link
                   href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/resourcesList`}
@@ -172,15 +174,14 @@ const Footer = () => {
                   alt="NARlabs"
                 />
               </a>
-              <a href="https://moda.gov.tw/" rel="noopener noreferrer">
-                <Image src={logoModa} style={{ width: "auto" }} alt="moda" />
-              </a>
             </div>
           </div>
         </div>
         <div className="copyright">
-          <span>© 財團法人國家實驗研究院科技政策研究與資訊中心</span>
-          <span>{new Date().getFullYear()} All Rights Reserved.</span>
+          <span>
+            ©財團法人國家實驗研究院 {new Date().getFullYear()} All Rights
+            Reserved.
+          </span>
         </div>
       </article>
     </footer>

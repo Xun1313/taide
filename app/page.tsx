@@ -4,9 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import btnNextArrow from "~/images/icon/btn_nextArrow.svg";
 
-import StageUnit from "~/components/StageUnit";
+import CourseUnit from "~/components/CourseUnit";
 import PlanList from "~/components/PlanList";
-import BannerSwiper from "~/components/BannerSwiper";
 import NewsListUnitSwiper from "~/components/NewsListUnitSwiper";
 import NewsResType from "~/newsList/types";
 import { format } from "date-fns";
@@ -50,53 +49,21 @@ const Home = async () => {
                 />
               </video>
             </div>
-            <div className="bannerUnit__right">
-              <BannerSwiper />
-            </div>
           </div>
         </div>
       </article>
+
+      <CourseUnit />
       <PlanList />
 
-      <StageUnit />
       <article className="teamUnit">
         <div className="teamUnit__body">
-          <h2>TAIDE團隊陣容</h2>
+          <h2>TAIDE研發團隊</h2>
           <div className="row">
             <div className="cardTeam">
-              <div className="cardTeam__item odd max">
-                <h3>超強陣容</h3>
-                <div className="text">Engine Development</div>
-              </div>
               <div className="cardTeam__item odd">
-                <h3>
-                  資料取得示
-                  <br />
-                  與標註小組
-                </h3>
-                <div className="text">
-                  Data acquisition with annotation team
-                </div>
-                <div className="btn">
-                  <Link
-                    href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList#tag2`}
-                  >
-                    <span>了解更多</span>
-                    <Image
-                      src={btnNextArrow}
-                      style={{ height: "auto" }}
-                      alt="arrow"
-                    />
-                  </Link>
-                </div>
-              </div>
-              <div className="cardTeam__item odd">
-                <h3>
-                  核心模型訓練
-                  <br />
-                  與RLHF小組
-                </h3>
-                <div className="text">Core model training with RLHF group</div>
+                <h3>模型鑄造組</h3>
+                <div className="text">Basic Model Build Team</div>
                 <div className="btn">
                   <Link
                     href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList#tag1`}
@@ -111,14 +78,26 @@ const Home = async () => {
                 </div>
               </div>
               <div className="cardTeam__item odd">
-                <h3>
-                  高速運算資源與
-                  <br />
-                  技術支援小組
-                </h3>
-                <div className="text">
-                  High-speed computing resources and technical support team
+                <h3>應用領域組</h3>
+                <div className="text">Application Field Team</div>
+                <div className="btn">
+                  <Link
+                    href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList#tag2`}
+                  >
+                    <span>了解更多</span>
+                    <Image
+                      src={btnNextArrow}
+                      style={{ height: "auto" }}
+                      alt="arrow"
+                    />
+                  </Link>
                 </div>
+              </div>
+            </div>
+            <div className="cardTeam">
+              <div className="cardTeam__item even">
+                <h3>其他</h3>
+                <div className="text">Others</div>
                 <div className="btn">
                   <Link
                     href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList#tag3`}
@@ -132,109 +111,13 @@ const Home = async () => {
                   </Link>
                 </div>
               </div>
-              <div className="cardTeam__item odd">
-                <h3>
-                  應用服務平台建構
-                  <br />
-                  與管理小組
-                </h3>
-                <div className="text">
-                  Application service platform construction and management team
-                </div>
+
+              <div className="cardTeam__item even">
+                <h3>前期參與</h3>
+                <div className="text">Early Participation</div>
                 <div className="btn">
                   <Link
                     href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList#tag4`}
-                  >
-                    <span>了解更多</span>
-                    <Image
-                      src={btnNextArrow}
-                      style={{ height: "auto" }}
-                      alt="arrow"
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="cardTeam">
-              <div className="cardTeam__item even max">
-                <h3>卓越團隊</h3>
-                <div className="text">Environmental Development</div>
-              </div>
-              <div className="cardTeam__item even">
-                <h3>
-                  國際觀測
-                  <br />
-                  與規範小組
-                </h3>
-                <div className="text">
-                  International observation with specification group
-                </div>
-                <div className="btn">
-                  <Link
-                    href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList#tag5`}
-                  >
-                    <span>了解更多</span>
-                    <Image
-                      src={btnNextArrow}
-                      style={{ height: "auto" }}
-                      alt="arrow"
-                    />
-                  </Link>
-                </div>
-              </div>
-              <div className="cardTeam__item even">
-                <h3>
-                  評測系統與
-                  <br />
-                  驗測環境小組
-                </h3>
-                <div className="text">
-                  Evaluation system and Testing Environment Team
-                </div>
-                <div className="btn">
-                  <Link
-                    href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList#tag6`}
-                  >
-                    <span>了解更多</span>
-                    <Image
-                      src={btnNextArrow}
-                      style={{ height: "auto" }}
-                      alt="arrow"
-                    />
-                  </Link>
-                </div>
-              </div>
-
-              <div className="cardTeam__item even">
-                <h3>
-                  計畫執行
-                  <br />
-                  管理
-                </h3>
-                <div className="text">Project Execution Management</div>
-                <div className="btn">
-                  <Link
-                    href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList#tag8`}
-                  >
-                    <span>了解更多</span>
-                    <Image
-                      src={btnNextArrow}
-                      style={{ height: "auto" }}
-                      alt="arrow"
-                    />
-                  </Link>
-                </div>
-              </div>
-              <div className="cardTeam__item even">
-                <h3>
-                  計畫督導
-                  <br />
-                  管理
-                </h3>
-                <div className="text">Project Supervision Management</div>
-                <div className="btn">
-                  <Link
-                    href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList#tag7`}
                   >
                     <span>了解更多</span>
                     <Image
@@ -299,6 +182,25 @@ const Home = async () => {
             ))}
           </div>
         </div>
+      </article>
+
+      <article className="contactUnit home">
+        <article className="contactUnit__body">
+          <h2>
+            <span>有任何想法？</span>
+            <span>歡迎與我們聯絡</span>
+          </h2>
+          <div className="btn">
+            <a href="mailto:TAIDE@narlabs.org.tw">
+              <span>Contact TAIDE</span>
+              <Image
+                src={btnNextArrow}
+                style={{ height: "auto" }}
+                alt="arrow"
+              />
+            </a>
+          </div>
+        </article>
       </article>
 
       <script

@@ -70,6 +70,7 @@ const Header = () => {
     return () => {
       $(document).ready(function () {
         $(".btnSubNav").off("click");
+        $(".btnSubNav > .subNav > a").off("click");
         $(".btnDownload").unbind("mouseenter mouseleave");
         $(".menuBtn").off("click");
         $("nav ul li a").off("click");
@@ -96,36 +97,30 @@ const Header = () => {
           )}`}
         >
           <ul>
-            <li
-              className={`btnSubNav ${handleHoverNavigation([
-                "project-overview",
-                "project-outcome",
-                "project-progress",
-              ])}`}
-            >
-              <a style={{ cursor: "pointer" }}>認識TAIDE</a>
-              <div className="subNav">
+            <li className={`btnSubNav ${handleHoverNavigation(["teamList"])}`}>
+              <a style={{ cursor: "pointer" }}>研發團隊</a>
+              <div className="subNav filter-button-group">
                 <Link
-                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/about/project-overview`}
+                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList#tag1`}
                 >
-                  計畫背景
+                  模型鑄造組
                 </Link>
                 <Link
-                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/about/project-outcome`}
+                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList#tag2`}
                 >
-                  預期效益
+                  應用領域組
                 </Link>
                 <Link
-                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/about/project-progress`}
+                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList#tag3`}
                 >
-                  階段進展
+                  其他
+                </Link>
+                <Link
+                  href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList#tag4`}
+                >
+                  前期參與
                 </Link>
               </div>
-            </li>
-            <li className={`${handleHoverNavigation(["teamList"])}`}>
-              <Link href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/teamList`}>
-                團隊陣容
-              </Link>
             </li>
             <li
               className={`${handleHoverNavigation([

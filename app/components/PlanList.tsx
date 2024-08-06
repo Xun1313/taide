@@ -1,8 +1,14 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useRef } from "react";
 import Swiper from "swiper";
 import { Autoplay } from "swiper/modules";
+import iconAnything1 from "~/images/en/icon_anything_1.svg";
+import iconAnything2 from "~/images/en/icon_anything_2.svg";
+import iconAnything3 from "~/images/en/icon_anything_3.svg";
+import iconAnything4 from "~/images/en/icon_anything_4.svg";
+import iconAnything5 from "~/images/en/icon_anything_5.svg";
 
 const PlanList = () => {
   const swiperElement = useRef<HTMLDivElement>(null);
@@ -43,91 +49,179 @@ const PlanList = () => {
 
   return (
     <article className="planList">
-      <h2>TAIDE整體計畫目的如下</h2>
+      <div className="planList__hd">
+        <h2>TAIDE 可以做什麼？</h2>
+      </div>
       <div className="swiper planSwiper" ref={swiperElement}>
         <div className="swiper-wrapper">
           <div className="swiper-slide slide1">
             <div className="infoCon">
               <h3>
-                <span>打造臺灣本土可信任</span>
-                <span>生成式AI對話引擎基礎模型</span>
+                <span>自動摘要</span>
               </h3>
               <div className="text">
-                讓政府或業者後續可依照需求選擇適用的模型大小及衡量算力，自行訓練模型或建構內部應用之模型。
+                快速提取文章摘要，協助用戶快速掌握關鍵資訊，提升閱讀和理解效率。
+              </div>
+              <div className="icon">
+                <Image
+                  src={iconAnything1}
+                  style={{ height: "auto" }}
+                  alt="arrow"
+                />
               </div>
             </div>
           </div>
           <div className="swiper-slide slide2">
             <div className="infoCon">
               <h3>
-                <span>導入不同主題領域</span>
-                <span>可用文本與訓練素材</span>
+                <span>寫信</span>
               </h3>
               <div className="text">
-                提高模型在正體中文回應的能力及特定任務的表現。
+                自動撰寫電子郵件內容，滿足不同情境下的溝通需求，提升業務效率。
+              </div>
+              <div className="icon">
+                <Image
+                  src={iconAnything2}
+                  style={{ height: "auto" }}
+                  alt="arrow"
+                />
               </div>
             </div>
           </div>
           <div className="swiper-slide slide3">
             <div className="infoCon">
               <h3>
-                <span>建構運算環境</span>
-                <span>及應用服務平台</span>
+                <span>寫文章</span>
               </h3>
               <div className="text">
-                提供模型發展所需算力，並奠定後續推廣應用基礎。
+                從主題選擇到內容編寫，讓用戶輕鬆完成各類寫作任務。
+              </div>
+              <div className="icon">
+                <Image
+                  src={iconAnything3}
+                  style={{ height: "auto" }}
+                  alt="arrow"
+                />
               </div>
             </div>
           </div>
           <div className="swiper-slide slide4">
             <div className="infoCon">
               <h3>
-                <span>透過法制研析、驗測規範及</span>
-                <span>評測工具之發展</span>
+                <span>中翻英</span>
               </h3>
-              <div className="text">健全AI的發展環境與提升民眾的信任度。</div>
+              <div className="text">
+                提供中文翻譯成英文的功能，協助用戶輕鬆應對跨語言交流。
+              </div>
+              <div className="icon">
+                <Image
+                  src={iconAnything4}
+                  style={{ height: "auto" }}
+                  alt="arrow"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="swiper-slide slide5">
+            <div className="infoCon">
+              <h3>
+                <span>英翻中</span>
+              </h3>
+              <div className="text">
+                提供英文翻譯成中文的功能，讓用戶能快速閱讀和理解英文文件。
+              </div>
+              <div className="icon">
+                <Image
+                  src={iconAnything5}
+                  style={{ height: "auto" }}
+                  alt="arrow"
+                />
+              </div>
             </div>
           </div>
           <div className="swiper-slide slide1">
             <div className="infoCon">
               <h3>
-                <span>打造臺灣本土可信任</span>
-                <span>生成式AI對話引擎基礎模型</span>
+                <span>自動摘要</span>
               </h3>
               <div className="text">
-                讓政府或業者後續可依照需求選擇適用的模型大小及衡量算力，自行訓練模型或建構內部應用之模型。
+                快速提取文章摘要，協助用戶快速掌握關鍵資訊，提升閱讀和理解效率。
+              </div>
+              <div className="icon">
+                <Image
+                  src={iconAnything1}
+                  style={{ height: "auto" }}
+                  alt="arrow"
+                />
               </div>
             </div>
           </div>
           <div className="swiper-slide slide2">
             <div className="infoCon">
               <h3>
-                <span>導入不同主題領域</span>
-                <span>可用文本與訓練素材</span>
+                <span>寫信</span>
               </h3>
               <div className="text">
-                提高模型在正體中文回應的能力及特定任務的表現。
+                自動撰寫電子郵件內容，滿足不同情境下的溝通需求，提升業務效率。
+              </div>
+              <div className="icon">
+                <Image
+                  src={iconAnything2}
+                  style={{ height: "auto" }}
+                  alt="arrow"
+                />
               </div>
             </div>
           </div>
           <div className="swiper-slide slide3">
             <div className="infoCon">
               <h3>
-                <span>建構運算環境</span>
-                <span>及應用服務平台</span>
+                <span>寫文章</span>
               </h3>
               <div className="text">
-                提供模型發展所需算力，並奠定後續推廣應用基礎。
+                從主題選擇到內容編寫，讓用戶輕鬆完成各類寫作任務。
+              </div>
+              <div className="icon">
+                <Image
+                  src={iconAnything3}
+                  style={{ height: "auto" }}
+                  alt="arrow"
+                />
               </div>
             </div>
           </div>
           <div className="swiper-slide slide4">
             <div className="infoCon">
               <h3>
-                <span>透過法制研析、驗測規範及</span>
-                <span>評測工具之發展</span>
+                <span>中翻英</span>
               </h3>
-              <div className="text">健全AI的發展環境與提升民眾的信任度。</div>
+              <div className="text">
+                提供中文翻譯成英文的功能，協助用戶輕鬆應對跨語言交流。
+              </div>
+              <div className="icon">
+                <Image
+                  src={iconAnything4}
+                  style={{ height: "auto" }}
+                  alt="arrow"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="swiper-slide slide5">
+            <div className="infoCon">
+              <h3>
+                <span>英翻中</span>
+              </h3>
+              <div className="text">
+                提供英文翻譯成中文的功能，讓用戶能快速閱讀和理解英文文件。
+              </div>
+              <div className="icon">
+                <Image
+                  src={iconAnything5}
+                  style={{ height: "auto" }}
+                  alt="arrow"
+                />
+              </div>
             </div>
           </div>
         </div>

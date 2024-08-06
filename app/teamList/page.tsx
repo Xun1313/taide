@@ -33,7 +33,7 @@ const TeamList = () => {
         <div className="teamList__body">
           <h1>團隊陣容</h1>
           <div className="subtitle">
-            集合國家實驗研究院、數位發展部、中研院、各大學教授及各領域專家們
+            集合國家實驗研究院、中研院、各大學教授及各領域專家們
           </div>
           <FilterRender />
         </div>
@@ -47,7 +47,11 @@ const TeamList = () => {
           <div className="btn">
             <a href="mailto:TAIDE@narlabs.org.tw">
               <span>Contact TAIDE</span>
-              <Image src={btnNextArrow} style={{ height: "auto" }} alt="arrow" />
+              <Image
+                src={btnNextArrow}
+                style={{ height: "auto" }}
+                alt="arrow"
+              />
             </a>
           </div>
         </article>
