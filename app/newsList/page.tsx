@@ -149,7 +149,7 @@ const NewsList = async ({
           </div>
           <SearchInput keyword={searchParams.keyword} />
           <RenderPage />
-          {pageNo > 1 && (
+          {totalPages > 1 && (
             <div className="pageUnit">
               <ol>
                 <li className="prev">
