@@ -219,8 +219,8 @@ const MainPage = () => {
                   <h4>課程投影片.zip</h4>
                   <div className="btn">
                     <a
-                      href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/resources/課程投影片.zip`}
-                      target="_self"
+                      href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/resources/class1.zip`}
+                      download="課程投影片"
                     >
                       <span>Download</span>
                       <Image
@@ -235,8 +235,8 @@ const MainPage = () => {
                   <h4>課程模型.zip</h4>
                   <div className="btn">
                     <a
-                      href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/resources/課程模型.zip`}
-                      target="_self"
+                      href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/resources/class2.zip`}
+                      download="課程模型"
                     >
                       <span>Download</span>
                       <Image

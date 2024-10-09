@@ -1,5 +1,6 @@
 import { WithContext } from "schema-dts";
 
+import { Suspense } from "react"
 import Image from "next/image";
 import btnNextArrow from "~/images/icon/btn_nextArrow.svg";
 
@@ -35,7 +36,9 @@ const TeamList = () => {
           <div className="subtitle">
             集合國家實驗研究院、中研院、各大學教授及各領域專家們
           </div>
-          <FilterRender />
+          <Suspense>
+            <FilterRender />
+          </Suspense>
         </div>
       </article>
       <article className="contactUnit team">
